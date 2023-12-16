@@ -1,0 +1,56 @@
+[
+  {
+    "nome": "Rodrigo Peres de Souza",
+    "telefone": "(31) 9 9270-6307",
+    "filial": "Belo Horizonte",
+    "curso": "Programa\u00e7\u00e3o Full Stack"
+  },
+  {
+    "nome": "Juliana Menezes Carvalho",
+    "telefone": "(71) 9 8556-6336",
+    "filial": "Salvador",
+    "curso": "Digital Design"
+  },
+  {
+    "nome": "Roberto Gon\u00e7alves Juliano",
+    "telefone": "(81) 9 7878-2525",
+    "filial": "Fortaleza",
+    "curso": "Fotografia Design"
+  },
+  {
+    "nome": "Carlos Alberto de Nobrega",
+    "telefone": "(31) 9 9868-1313",
+    "filial": "Belo Horizonte",
+    "curso": "Marketing Digital"
+  },
+  {
+    "nome": "Fausto Meneguel Santos",
+    "telefone": "(71) 9 7575-4545",
+    "filial": "Salvador",
+    "curso": "Fotografia Design"
+  },
+  {
+    "nome": "Adalberto Gon\u00e7alves Bruno",
+    "telefone": "(81) 9 9595-5524",
+    "filial": "Fortaleza",
+    "curso": "Defesa Cibern\u00e9tica"
+  },
+  {
+    "nome": "Valdemira Calastofone Garcia",
+    "telefone": "(31) 9 9558-2222",
+    "filial": "Belo Horizonte",
+    "curso": "Fotografia Design"
+  },
+  {
+    "nome": "Ademir Cardoso do Bairro",
+    "telefone": "(31) 9 8444-5555",
+    "filial": "Belo Horizonte",
+    "curso": "Programa\u00e7\u00e3o Full Stack"
+  },
+  {
+    "nome": "Scobby Salsicha Pereira",
+    "telefone": "(81) 9 8888-7777",
+    "filial": "Fortaleza",
+    "curso": "Defesa Cibern\u00e9tica"
+  }
+]

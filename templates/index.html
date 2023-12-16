@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="../static/js/script.js"></script>
+    <title>Sorteio Infinity School</title>
+    
+</head>
+<body class="corpo">
+    <div class="barraNav">
+        <img class="logo" src="../static/img/logo-visual-header.png" alt=""> <h1 class="titulo">Sorteio Infinity School</h1>
+    </div>
+    <div class="principal">
+        <div class="ficha">
+            <h1>Ficha de cadastro</h1>
+            <form action ="{{url_for('cadastrarAluno')}}" method="post"><label for="nome">Digite o nome do aluno:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="telefone">Digite o telefone:</label>
+                <input type="text" id="telefone" name="telefone" maxlength="16" oninput="formatarTelefone(this)" required>
+                <label for="filial">Selecione a filial que ele se encontra:</label>
+                <input type="radio" name="filial" value="Belo Horizonte">Belo Horizonte
+                <input type="radio" name="filial" value="Fortaleza">Fortaleza
+                <input type="radio" name="filial" value="Salvador">Salvador
+
+                <label for="curso">Selecione o Curso:</label>
+                <select name="curso" id="curso">
+                    <option value="Data Science">Data Science</option>
+                    <option value="Defesa Cibernética">Defesa Cibernética</option>
+                    <option value="Digital Design">Digital Design</option>
+                    <option value="Film Design">Film Design</option>
+                    <option value="Fotografia Design">Fotografia Design</option>
+                    <option value="Marketing Digital">Marketing Digital</option>
+                    <option value="Programação Full Stack">Programação Full Stack</option>  
+                </select>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+        <div class="lista">
+            <iframe src="/listarAlunos" id="listar"></iframe>
+        </div>
+        <div class="sorteio">
+            <button onclick="abrirSorteio()" target="sorteio">Iniciar Sorteio</button>
+            <div> </div>
+            <iframe id="sorteio"></iframe>
+        </div>
+    </div>
+</body>
+</html>
